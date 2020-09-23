@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.asterixsolution.ruia.vacanza.Activities.Register"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email ID: "
+            android:layout_marginTop="20dp"
+            android:id="@+id/Email"
+            android:textSize="20sp"
+            android:textColor="#350b83"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name: "
+            android:layout_marginTop="20dp"
+            android:id="@+id/FName"
+            android:textSize="20sp"
+            android:textColor="#350b83"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etFName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name: "
+            android:layout_marginTop="20dp"
+            android:id="@+id/LName"
+            android:textSize="20sp"
+            android:textColor="#350b83"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etLName"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Password"
+            android:textSize="20sp"
+            android:text="Password: "
+            android:layout_marginTop="20dp"
+            android:textColor="#350b83"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CPassword"
+            android:textSize="20sp"
+            android:text="Confirm Password: "
+            android:layout_marginTop="20dp"
+            android:textColor="#350b83"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCPassword"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:text="Register"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gradient"
+            android:textStyle="bold"
+            android:id="@+id/btnRegister"/>
+
+    </LinearLayout>
+</ScrollView>
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.asterixsolution.ruia.vacanza.Activities.Splashscreen"
+    android:gravity="center_vertical|center_horizontal|center"
+    android:background="#ff8104">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/iv"
+        android:layout_gravity="center"
+        android:src="@drawable/airplane"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/font1"
+        android:text="VACANZA"
+        android:textAppearance="@style/MyTextAppearance1"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/great_vibes"
+        android:gravity="center"
+        android:text="Roam, Rest and Recharge"
+        android:textAppearance="@style/MyTextAppearance"
+        android:textColor="#090def"
+        android:textSize="25sp"></TextView>
+</LinearLayout>
